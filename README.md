@@ -30,7 +30,7 @@ In your project directory, run `yarn`. This will install all of the necessary no
 
 #### Run the app
 
-Run `yarn electron-dev` to start the app. The script `electron-dev` is defined in the `package.json`. It uses [concurrently](https://www.npmjs.com/package/concurrently) to first start the React code on http://localhost:3000, then once that is running, it launches the Electron app and points it at the
+Run `yarn electron-dev` to start the app. The script `electron-dev` is defined in the `package.json`. It uses [concurrently](https://www.npmjs.com/package/concurrently) to first start the React code on http://localhost:3000, then once that is running, it launches the Electron app and points it at http://localhost:3000.
 
 ## Available Scripts
 
